@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.input-box button {
+  background: #6a11cb;
+  color: white;
+}
+
+.filters {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.filters button {
+  background: #2575fc;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f3f3f3;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: green;
+}
+
+.delete {
+  background: red;
+  color: white;
+}
